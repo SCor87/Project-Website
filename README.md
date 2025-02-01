@@ -1,2 +1,2 @@
 # First-Project
-First project on GitHub
+First project on GitHub, for private review only.
