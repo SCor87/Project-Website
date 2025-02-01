@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="CSS/styles.css">
+	<title>Hot Beans Web - Web Development Courses</title>
+	<link rel="shortcut icon" type="image/svg" href="Images/bean_image.svg"> <!--USE LETTERS HB!!! SAMPLE AT THE MOMENT 13/04-->
+    <link rel="stylesheet" href="https://use.typekit.net/aco8phr.css"> <!-- Using imported font 'bubblegum pop' -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fjalla+One">
+	
+	<script src="Javascript/indexscript.js"></script> <!-- Link to JS scripting sheet -->
+
+</head>
+
+<body>
+
+ <div class="announcement"> <!-- Introducing a div container for announcement bar-->
+    <p>Want to join the Hot Beans team? <a href="We'reHiring.html" class="buttonlink rcorner">View jobs</a></p>
+ </div>
+  
+	<header>
+	
+	<div class="Menu-button" onclick="toggleMenu(this)"> <!-- container for a menu button -->
+		<div class="bar1"></div>
+		<div class="bar2"></div>
+		<div class="bar3"></div>
+	</div>
+
+<div class="logoimage">
+		<a href="index.html"> <img src="Images/hotbeans_logo.svg" alt="Profile Image" style="width:150px; height:auto;"></a> <!-- linking logo back to index.html -->	
+		<a href="index.html"> <img src="Images/hotbeans_logo_yellow.svg" alt="Profile Image" style="width:150px; height:auto;" class="hoverlogo"></a> <!-- linked logo changes colour when hovered over -->
+	
+</div>
+	
+	</header>
+	
+	<!-- The overlay -->
+<div id="myNav" class="overlay">
+
+   <!-- Overlay content -->
+  <div class="overlay-content">
+	<a href="index.html">Our Story</a><!--List Item. Specifies a list-->
+	<a href="MeetTheTeam.html">Meet The Team</a>
+	<a href="We'reHiring.html">We're Hiring</a>
+	<a href="OnlineApplicationForm.html">Online Application Form</a>
+	<a href="WebDevelopmentCourses.html">Web Development Courses</a>
+  </div>
+
+</div>
+	
+<main>
+	<!--img src="ADD LINK!!!" alt="Default Image"-->
+	
+	<section>
+		<h1>Web Development Courses</h1>
+		<p>Our buddy system at Hot Beans Web places you with an experienced colleague throughout your onboarding process.
+		This means you will truly get to experience our vibe and culture first hand and how we work here.
+		On top of that, we offer access to courses through a selection of the companies listed and encourage
+		you to visit some of these pages to aid in your personal development. </p>
+		
+		<div class="course-links">
+	<!--ul--> <!-- This was creating a child element error with the "a" and "br" tags below so I removed "ul" and "/ul" Page still functions -->
+		<a href=" https://www.coursera.org/search?query=web%20development" title="Coursera"> <img src="Images/Coursera.svg" alt="Coursera logo" width="100" height="100"> </a>
+		<!-- First use of linking to external websites for this entry and below-->
+		
+		<a href="https://www.freecodecamp.org/" title="Free Code Camp"> <img src="Images/FreeCodeCamp.jpg" alt="Free Code Camp logo" width="100" height="100" class="rounded"> </a>
+		
+		
+		<a href="https://teamtreehouse.com/" title="Treehouse"> <img src="Images/Treehouse.png" alt="Treehouse logo" width="100" height="100"></a>
+		
+		<a href="https://nationalcareers.service.gov.uk/job-profiles/web-developer" title="National Careers Service - Web Developer"> <img src="Images/NationalCareersService.jpg" alt="National Careers Service logo" width="100" height="66" class="rounded"> </a>
+		
+		
+		<a href="https://nationalcareers.service.gov.uk/find-a-course" title="National Careers Service - Find A Course"> <img src="Images/NationalCareersService.jpg" alt="National Careers Service logo" width="100" height="66" class="rounded"> </a>
+		
+		<a href="https://www.nrc.ac.uk/search/?keywords" title="Northern Regional College - Find A Course"> <img src="Images/NorthernRegionalCollege.png" alt="Northern Regional College logo" width="100" height="100" class="rounded"> </a>
+		<br>
+		
+		<a href="https://www.nrc.ac.uk/campaign/computing-courses-at-northern-regional-college" title="Northern Regional College - Computing"> <img src="Images/NorthernRegionalCollege.png" alt="Northern Regional College logo" width="100" height="100" class="rounded"> </a>
+				
+		
+		<a href="https://www.qub.ac.uk/courses/undergraduate/computing-information-technology-incl-professional-experience-bsc-gg45/" title="Queen's University - Computing and Information Technology"> <img src="Images/Queen'sUniversity.png" alt="Queen's University Belfast logo" width="100" height="100"> </a>
+		
+		
+		<a href="https://www.ulster.ac.uk/courses/202425/computing-technologies-33468" title="Ulster University - Computing Technologies"> <img src="Images/UlsterUniversity.jpg" alt="Ulster University logo" width="100" height="59" class="rounded"> </a>
+		
+		
+		<a href="https://www.serc.ac.uk/search/courses?c=29&_gl=1*1kbekhl*_up*MQ..*_ga*MTU0NjM3MDQ4Mi4xNzEwMjUyMDM1*_ga_Z28SR8YQDY*MTcxMDI1MjAzNC4xLjEuMTcxMDI1MjA5Mi4wLjAuMA" title="South Eastern Regional College - Computing Courses"> <img src="Images/SERC.jpg" alt="SERC logo" width="100" height="56" class="rounded"> </a>
+		
+		
+		<a href="https://www.open.ac.uk/courses/computing-it" title="Open University - Computing and IT Courses"> <img src="Images/TheOpenUniversity.png" alt="The Open University logo" width="100" height="36"> </a>
+		
+	<!--/ul-->
+	</div>
+		
+		
+	</section>
+</main>
+
+<footer>
+
+<p>Copyright &copy; | 2024 Hot Beans Web</p>
+
+           <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" >
+
+</footer>
+
+</body>
+</html>	
