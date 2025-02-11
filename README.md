@@ -1,2 +1,1 @@
-# First-Project
-First project on GitHub, for private review only.
+A recruitment website project built in HTML, CSS, and JavaScript.
